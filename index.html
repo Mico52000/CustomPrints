@@ -17,20 +17,19 @@
   <body>
     <div class="container d-flex align-items-center h-100">
       <div class="row">
-        <header class="text-center col-12">
-          <h1 class="tex-uppercase  animated fadeInRight ">Customized Items On Demand</h1>
-        </header>
+        <div class=" text-center col-12">
+          <h1 id="h1" class="tex-uppercase  ">Customized Items On Demand</h1>
+        </div>
         <div class="buffer">
 
         </div>
-        <div class="display col-12">
+         <div class="display col-12">
           <img  class="gal" src="3D/img1.jpeg" alt="">
           <img class="gal" src="3D/img2.jpeg" alt="">
           <img class="gal" id="static" src="3D/gif1.gif" alt="">
           <img class="gal" src="3D/gif2.gif" alt="">
         </div>
         <section class="text-center col-12">
-          <hr>
           <div class="buffer"></div>
           <a href="https://mailchi.mp/179fbcbf2bd8/customprints"><button type="button" class="btn btn-primary btn-xl">Find Out More</button></a>
         </section>
@@ -54,6 +53,8 @@
           $(window).load(function(){
             $(".loader-wrapper").fadeOut("slow");
           });
+          $("#h1").addClass("animated")
+          $("#h1").addClass("fadeInRight")
  </script>
 
   </body>
