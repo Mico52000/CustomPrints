@@ -26,8 +26,8 @@
          <div class="display col-12">
           <img  class="gal" src="3D/img1.jpeg" alt="">
           <img class="gal" src="3D/img2.jpeg" alt="">
-          <img class="gal" id="static1" src="3D/gif1.gif" alt="">
-          <img class="gal"  id="static2" src="3D/gif2.gif" alt="">
+          <img class="gal" id="static1" src="3D/static1.png" alt="">
+          <img class="gal"  id="static2" src="3D/static2.png" alt="">
         </div>
         <section class="text-center col-12">
           <div class="buffer"></div>
@@ -67,9 +67,6 @@
             $(this).attr("src", "3D/static1.png");
         }
     );
-});
-$(document).ready(function()
-{
     $("#static2").hover(
         function()
         {
@@ -81,6 +78,19 @@ $(document).ready(function()
         }
     );
 });
+// $(document).ready(function()
+// {
+//     $("#static2").hover(
+//         function()
+//         {
+//             $(this).attr("src", "3D/gif2.gif");
+//         },
+//         function()
+//         {
+//             $(this).attr("src", "3D/static2.png");
+//         }
+//     );
+// });
  </script>
 
   </body>
